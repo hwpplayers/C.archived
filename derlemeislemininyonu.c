@@ -1,0 +1,20 @@
+/*C'de derleme işleminin bir yönü vardır. Bu yön yukarıdan aşağıya doğrudur. Derleyicinin önce değişkenin bildirimini görmesi gerekir. Bu nedenle bir global değişkeni aşağıda bildirip daha yukarıda kullanamayız. Örneğin:*/
+
+#include <stdio.h>
+
+void foo()
+{
+  /*a = 10;*/		/* geçersiz! */
+}
+
+int a;
+
+int main()
+{
+	a = 10;			/* geçerli */
+	printf("%d\n", a);		/* geçerli */
+
+	return 0;
+}
+
+/*Bu durumda global değişkenler için en iyi bildirim yeri programın tepesidir.*/  
