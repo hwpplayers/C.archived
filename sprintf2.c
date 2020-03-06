@@ -3,9 +3,9 @@
 int main(void)
 {
 	char s[100];
-	int a = 10, b = 20;
+	double d = 12.345;
 
-	sprintf(s, "a = %d, b = %d", a, b);
+	sprintf(s, "%f", d);
 	puts(s);
 	
 	return 0;
