@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void foo(int(*pa)[2])
+{
+  int i, k;
+
+  for (i = 0; i < 3; ++i) {
+    for (k = 0; k < 2; ++k)
+      printf("%d ", pa[i][k]);
+    printf("\n");
+  }
+}
+
+int main(void)
+{
+  int a[3][2] = { {1, 2}, {3, 4}, {5, 6} };
+
+  foo(a);/* geçerli */
+
+  return 0;
+}
