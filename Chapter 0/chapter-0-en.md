@@ -67,7 +67,7 @@ object1: file1.c
 
 Finally, you need a target that generates the final executable:
 
-``Makefile
+```Makefile
 executable: object1 object2 object3 object4 object5 object5
     command to link the five objects into an executable file
 ```
