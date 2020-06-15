@@ -17,26 +17,25 @@ there was no no real standard.
 From 1980, the C language stabilized in its ANSI C form, and the first 
 standard compilers appeared, including the Amsterdam Compiler, the Amsterdam 
 Compiler Andrew Tanenbaum's kit. It was at this time that the GNU Project was 
-started by Richard M. Stallman, and that he is proposing to Andrew Tanenbaum to 
-join his compiler in the GNU Project. The latter refuses the proposal, 
-preferring its compiler remains proprietary software. That's how GCC was born 
+started by Richard M. Stallman, and that he proposed to Andrew Tanenbaum to 
+join his compiler in the GNU Project. The latter refused the proposal, 
+preferring its compiler remained proprietary software. That's how GCC was born 
 and that its first version was distributed in 1987.
 
-Today GCC (for GNU Compiler Collection) supports many languages from 
-programming, and is one of the most used C compilers with Clang (LLVM). The 
-difference between these two compilers is primarily a difference of license, 
-GCC being distributed under the GPL and Clang being distributed under the 
-BSD+Apache license, best suited for integration into licensed operating systems 
-permissive.
+Today GCC (for GNU Compiler Collection) supports many programming languages, and
+is one of the most used C compilers with Clang (LLVM). The difference between 
+these two compilers is primarily a difference of license, GCC being distributed 
+under the GPL and Clang being distributed under the BSD+Apache license, 
+best suited for integration into permissive-licensed operating systems.
 
 ### Compilation scripts
 
 Very early in history, the process of compiling programs became complex and 
 much longer than in the past. Projects were becoming cumbersome, and the 
-separation of pieces of code in different files became a thing necessary. 
-In the 1970's, most projects used scripts shell to compile their code. This had 
-two drawbacks: the need to recompile the whole project at the slightest change, 
-and a real puzzle for the dependencies. 
+separation of pieces of code in different files became necessary. In the 1970's,
+most projects used scripts shell to compile their code. This had two drawbacks: 
+the need to recompile the whole project at the slightest change, and a real 
+puzzle for the dependencies. 
 
 In 1977, Dr. Stuart Feldman at Bell Laboratories designed Make. This software is
 based on a modified syntax of shell scripts and the concept of recipes. These
