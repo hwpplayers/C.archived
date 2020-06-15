@@ -50,7 +50,7 @@ executable. The separate compilation was born.
 
 Makefiles use a syntax based on the target/dependency ratio.
 
-Makefile
+```Makefile
 target: dependencies
     command to generate the target
 
@@ -60,7 +60,7 @@ Let's imagine that we want to write the Makefile corresponding to the composed
 project of five code files presented earlier. Five recipes are then required 
 for each target. For example, for the first target, it reads: 
 
-Makefile
+```Makefile
 object1: file1.c
     command to compile file 1 
 ```
