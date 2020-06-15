@@ -53,28 +53,27 @@ La compilation séparée était née.
 
 Les Makefiles utilisent une syntaxe basée sur le rapport cible/dépendance.
 
-"""Makefile
+```Makefile
 cible:  dépendances
     commande pour générer la cible
 
-"""
+```
 
 Imaginons que l'on souhaite écrire le Makefile correspondant au projet composé 
 de cinq fichiers de code présenté plus tôt. 
 Il faut alors cinq recettes pour chaque cibles. Par exemple, pour la première 
 cible, cela donne : 
 
-"""Makefile
+```Makefile
 objet1:   fichier1.c
     commande pour compiler le fichier 1 
-
-"""
+```
 
 Enfin, il faut une cible générant l'exécutable final :
 
-"""Makefile
+```Makefile
 executable: objet1 objet2 objet3 objet4 objet5
     commande pour lier les cinq objets en un exécutable
-"""
+```
 
 Nous étudierons par la suite en détail la génération d'un fichier exécutable. 
