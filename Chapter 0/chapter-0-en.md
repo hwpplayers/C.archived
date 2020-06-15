@@ -35,7 +35,7 @@ much longer than in the past. Projects were becoming cumbersome, and the
 separation of pieces of code in different files became necessary. In the 1970's,
 most projects used scripts shell to compile their code. This had two drawbacks: 
 the need to recompile the whole project at the slightest change, and a real 
-puzzle for the dependencies. 
+puzzle for dependencies. 
 
 In 1977, Dr. Stuart Feldman at Bell Laboratories designed Make. This software is
 based on a modified syntax of shell scripts and the concept of recipes. These
