@@ -25,4 +25,4 @@ For security issues please send an e-mail to security at masscollabs dot com
 
 # C programming language examples
 
-hwpplayers is a hackerspace backed by Masscollabs Services. For contributions please for the repository and send your pull request. So we'll add your name into the Copyright section. We are a free and friendly community and we **always** listen other people's ideas and feedback. 
+hwpplayers is a hackerspace backed by Masscollabs Services. For contributions please *fork* the repository and send your *pull request*. So we'll add your name into the Copyright section. We are a free and friendly community and we **always** listen other people's ideas and feedback. 
