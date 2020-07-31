@@ -1,4 +1,3 @@
-<one line to give the program's name and a brief idea of what it does.>
 C programming language examples written from scratch for educational purposes
 Copyright (C) 2020  Masscollabs Services 
 
@@ -18,7 +17,9 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 Also add information on how to contact you by electronic and paper mail.
 
 For general questions please send an e-mail to core at masscollabs dot com
+
 For technical support please send an e-mail to support at masscollabs dot com
+
 For security issues please send an e-mail to security at masscollabs dot com
 
 # C programming language examples
