@@ -1,4 +1,5 @@
 C programming language examples written from scratch for educational purposes
+
 Copyright (C) 2020  Masscollabs Services 
 
 This program is free software: you can redistribute it and/or modify
