@@ -1,3 +1,9 @@
+# On Contributions
+
+hwpplayers is a hackerspace backed by Masscollabs Services. For contributions please *fork* the repository and send your *pull request*. So we'll add your name into the Copyright section. We are a free and friendly community and we **always** listen other people's ideas and feedback. 
+
+You may both write GNU style or any style that you like, if there is a conflict we can create another branch and continue development on that branch.
+
 C programming language examples written from scratch for educational purposes
 
 Copyright (C) 2020  Masscollabs Services 
@@ -23,10 +29,6 @@ For technical support please send an e-mail to support at masscollabs dot com
 
 For security issues please send an e-mail to security at masscollabs dot com
 
-# C programming language examples
-
-hwpplayers is a hackerspace backed by Masscollabs Services. For contributions please *fork* the repository and send your *pull request*. So we'll add your name into the Copyright section. We are a free and friendly community and we **always** listen other people's ideas and feedback. 
-
 ## Documentation 
 
         Copyright (C)  2020  Masscollabs Services
@@ -36,3 +38,5 @@ hwpplayers is a hackerspace backed by Masscollabs Services. For contributions pl
         with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
         A copy of the license is included in the section entitled "GNU
         Free Documentation License".
+
+happy hacking!
