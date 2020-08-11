@@ -1,4 +1,4 @@
-Copyright (C) 2020 Masscollabs Services 
+Copyright (C) 2020 Masscollabs Services, hwpplayers, procyberian(procyberian-linux), amassivus
 
 Ce programme est un logiciel libre : vous pouvez le redistribuer et/ou le modifier
 aux termes de la licence publique générale GNU telle que publiée par
@@ -31,7 +31,7 @@ hwpplayers est un hackerspace soutenu par Masscollabs Services.
 
 ## Documentation 
 
-        Copyright (C) 2020 Masscollabs Services
+        Copyright (C) 2020 Masscollabs Services, hwpplayers, procyberian(procyberian-linux), amassivus
         L'autorisation est accordée de copier, distribuer et/ou modifier ce document
         selon les termes de la licence de documentation libre GNU, version 1.3
         ou de toute autre version ultérieure publiée par la Free Software Foundation ;
