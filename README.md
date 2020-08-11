@@ -27,7 +27,7 @@ For the roadmap of this project see [ROADMAP.md](ROADMAP.md)
 
 For the contribution rules see [CONTRIBUTING.md](CONTRIBUTING.md)
 
-hwpplayers is a hackerspace backed by Masscollabs Services. For contributions please *fork* the repository and send your *pull request*. So we'll add your name into the Copyright section. We are a free and friendly community and we **always** listen other people's ideas and feedback. 
+hwpplayers is a hackerspace backed by Masscollabs Services. 
 
 ## Documentation 
 

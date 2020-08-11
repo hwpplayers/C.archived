@@ -4,6 +4,7 @@ hwpplayers is a hackerspace backed by Masscollabs Services. For contributions pl
 
 You may both write GNU style or any style that you like, if there is a conflict we can create another branch and continue development on that branch.
 
+
 C programming language examples written from scratch for educational purposes
 
 Copyright (C) 2020  Masscollabs Services 
