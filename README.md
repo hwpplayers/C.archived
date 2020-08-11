@@ -1,10 +1,3 @@
-# C programming language examples written from scratch for educational purposes
-
-For the roadmap of this project see [ROADMAP.md](ROADMAP.md)
-
-For the contribution rules see [CONTRIBUTING.md](CONTRIBUTING.md)
-
-
 Copyright (C) 2020  Masscollabs Services 
 
 This program is free software: you can redistribute it and/or modify
@@ -29,6 +22,10 @@ For technical support please send an e-mail to support at masscollabs dot com
 For security issues please send an e-mail to security at masscollabs dot com
 
 # C programming language examples
+
+For the roadmap of this project see [ROADMAP.md](ROADMAP.md)
+
+For the contribution rules see [CONTRIBUTING.md](CONTRIBUTING.md)
 
 hwpplayers is a hackerspace backed by Masscollabs Services. For contributions please *fork* the repository and send your *pull request*. So we'll add your name into the Copyright section. We are a free and friendly community and we **always** listen other people's ideas and feedback. 
 
