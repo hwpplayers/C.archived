@@ -108,7 +108,7 @@ exploded. It's done with brackets.
 }
 ```
 
-#### Assignment (or assignment)
+#### Assignment
 
 This type of instruction represents a change operation on the information in the
 computer's memory. 
@@ -171,6 +171,6 @@ respected.
 if (condition) {
     instruction_if_respected;
 } else {
-    instruction_sinon;
+    instruction_else;
 }
 ```
