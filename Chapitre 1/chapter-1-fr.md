@@ -1,5 +1,5 @@
 #   Chapitre 1
-##  Les principes syntaxiques de base de [C](https://fr.wikipedia.org/wiki/C_(programming_language)), notion de fonction
+##  Les principes syntaxiques de base de [C](https://fr.wikipedia.org/wiki/C_(langage)), notion de fonction
 
 
 ### Histoire du langage C
@@ -29,6 +29,29 @@ repris cette idée dans la conception de son système et mis en place le princip
 d'un jeu d'instruction virtuel dans lequel les sources sont compilées pour 
 ensuite être projetées vers n'importe quelle architecture, c'est-à-dire du 
 byte-code temporaire.
+
+Un fichier source écrit en langage C contient diverses expressions. On les 
+distingue selon trois types : les directives de préprocesseur, les instructions
+et les commentaires.
+
+
+### Commentaires en langage C
+
+Un commentaire, comme son nom l'indique permet de commenter une ligne, un bloc
+voir l'ensemble d'un fichier de code. Son but est de documenter, expliquer le 
+fonctionnement du programme et la raison des choix qui sont pris lors d'une 
+implémentation. 
+
+Pour créer un commentaire en C, voici quelques exemples.
+
+```C
+// Ceci est un commentaire
+
+/* Ceci est un commentaire également ! */
+
+/*  Ceci est un 
+    commentaire multiligne ! */
+```
 
 
 ### Instructions du langage C
@@ -101,8 +124,60 @@ la variable (le type étant la référence indiquant la structure de données à
 laquelle cette structure appartient : entier, flottant, tableau, charactère...)
 
 Par exemple on réalise ici l'affectation du nombre 14 dans une variable nommée
-_nombre_.
+_nombre_ et de type _int_ (pour Integer, soit nombre entier)
 
 ```C
 int nombre = 14;
+```
+
+Il également possible d'affecter à une variable la valeur d'une autre.
+
+```C
+int nombre = 14;
+int nombre2 = nombre;
+```
+
+#### Conditions
+
+Première catégorie des instructions dites _de contrôle_, les instructions 
+conditionnelles ne sont pas destinées à traiter l'information (contrairement à
+l'affectation par exemple). 
+
+Les conditions sont des instructions permettant de changer le comportement du 
+déroulement du programme en fonction de valeurs. 
+
+Par exemple, imaginons un programme naïf d'une porte de coffre fort à 
+combinaison. Ce type de programme doit donc vérifier que l'utilisateur du coffre
+a bien tapé le bon code pour ouvrir la porte. _Si_ le code est bon, _alors_ la
+porte peut s'ouvrir. 
+
+En C voici ce que cela donne. 
+
+```C
+int code_porte = 1234;                  // Le code de la porte enregistré
+int code_saisi_par_utilisateur = 6666;  // Le code que l'utilisateur tape
+int porte_ouverte = 0;                  // A 1 si la porte est ouverte, 0 sinon
+
+if (code_porte == code_saisi_par_utilisateur) {
+    porte_ouverte = 1;                  // La porte s'ouvre !
+}
+```
+
+Plus généralement. 
+
+```C
+if (condition) {
+    instruction;
+}
+```
+
+Il est également possible de prévoir un second cas lorsque la condition est non
+respectée.
+
+```C
+if (condition) {
+    instruction_si_respecté;
+} else {
+    instruction_sinon;
+}
 ```

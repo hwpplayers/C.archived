@@ -1,7 +1,7 @@
 Cette feuille de route du projet, dans l'ordre des chapitres.
 
 0. Présentation des interfaces de compilation ([GCC](https://fr.wikipedia.org/wiki/GNU_Compiler_Collection), [Makefile](https://fr.wikipedia.org/wiki/Makefile), par exemple)
-1. Les principes syntaxiques de base de [C](https://fr.wikipedia.org/wiki/C_(programming_language)), notion de fonction
+1. Les principes syntaxiques de base de [C](https://fr.wikipedia.org/wiki/C_(langage)), notion de fonction
 2. La notion de fichier objet et de compilation - [Linkage](https://fr.wikipedia.org/wiki/Linkage_(software)), génération d'un fichier exécutable
 3. Notre premier programme avec [Makefile](https://fr.wikipedia.org/wiki/Makefile) et [Linker](https://fr.wikipedia.org/wiki/Linker_(computing))
 4. Les [bibliothèques](https://fr.wikipedia.org/wiki/Library_(computing)) les plus utilisées de la [libc](https://fr.wikipedia.org/wiki/C_standard_library)
