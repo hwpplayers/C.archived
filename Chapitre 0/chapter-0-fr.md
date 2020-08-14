@@ -1,5 +1,5 @@
 #   Chapitre 0
-##  Présentation des interfaces de compilation du langage C
+##  Présentation des interfaces de compilation ([GCC](https://fr.wikipedia.org/wiki/GNU_Compiler_Collection), [Makefile](https://fr.wikipedia.org/wiki/Makefile), par exemple)
 
 
 ### Le compilateur C
