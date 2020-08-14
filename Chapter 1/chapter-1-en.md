@@ -1,5 +1,5 @@
 # Chapter 1
-## The basic syntactic principles of [C](https://fr.wikipedia.org/wiki/C_(language)), notion of function
+## The basic syntax principles of [C](https://en.wikipedia.org/wiki/C_(programming_language)), notion of function
 
 
 ### History of the C language
